@@ -1,5 +1,20 @@
+*{
+  margin: 0;
+  padding:0;
+}
+
+
 body{
   background-color : #A9A9A9;
+  color: #1D475E;
+}
+
+
+header{
+    border-bottom: #1D475E;
+    margin: 20px;
+    font-size: 32px;
+    color:#A9A9A9;
 }
 
 .insirirtexto{
@@ -10,4 +25,9 @@ body{
 #inserirtexto{
     display: flex;
     padding-left: 200px;
+}
+.videos{
+    display: flex;
+    overflow: auto;
+    gap: 10px;
 }
